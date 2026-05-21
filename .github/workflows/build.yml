@@ -12,6 +12,8 @@ on:
       - synchronize
       - reopened
 
+  workflow_dispatch:
+
 jobs:
   build-test-scan:
     runs-on: ubuntu-latest
