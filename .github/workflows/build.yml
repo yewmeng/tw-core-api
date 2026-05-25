@@ -49,6 +49,7 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=tw-core-api
+            -Dsonar.organization=yewmeng
       
     
        
